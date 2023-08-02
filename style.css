@@ -1,0 +1,233 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.a-head{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: rgb(245, 240, 239);
+}
+/*general classes*/
+.border{
+    border: 3px solid black;
+}
+.border-left{
+    border-left: 3px solid black;
+    
+}
+.border-right{
+    border-right: 3px solid black;
+}
+.border-bottom{
+    border-bottom: 3px solid black;;
+}
+.border-top{
+    border-top: 3px solid black;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+    
+}
+/*nav*/
+nav{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-lhs img{
+    height: 75px;
+    padding: 10px;
+    
+}
+.nav-mid{
+    font-size: 50px;padding: 15px;
+    font-weight: 600;
+}
+.nav-mid a{
+    color: black;
+    transition: all 0.3s ease;
+}
+/*nav-elements*/
+
+.nav-elements ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-elements ul li{
+    border-left: 3px solid black;
+    
+}
+.nav-elements ul li:nth-child(1){
+    border-left: 0px solid black;
+}
+.nav-elements ul li a{
+    color: black;
+    padding: 0 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+/*Showcase*/
+.showcase{
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 15px;
+    
+}
+.lhs-showcase{
+    padding-top: 25px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.lhs-showcase img{
+    width:55%;
+}
+.lhs-showcase a{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.rhs-showcase{
+    margin-top: 10px;
+    border: 2px dashed rgb(0, 0, 0);
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+.rhs-showcase img{
+    height: 450px;
+    width: 200px;
+}
+.rhs-showcase p{
+    width: 300px;   
+    padding: 0px; 
+}
+.rhs-showcase a{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+/*Showcase 2*/
+.showcase-two{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.rhs-showcase-two{
+    margin-top: 10px;
+    border: 2px dashed rgb(0, 0, 0);
+    height: 70%px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 15px;
+
+}
+.rhs-showcase-two img{
+    height: 450px;
+    width: 400px;
+}
+.rhs-showcase-two p{
+    width: 300px;   
+    padding: 0px; 
+}
+.showcase-three{
+    display: flex;
+}
+.showcase-three-template img{
+    width: 325px;
+    height: 300px;
+    
+}
+.showcase-three-template{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    padding: 25px;
+    
+}
+.showcase-three-template p{
+    padding-bottom: 35px;
+}
+.showcase-three-template h1{
+    padding-top: 35px;
+}
+/*Footer*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+/*Hover Features*/
+.nav-mid a:hover{
+    color: rgb(30, 107, 135);
+    transition: all 0.3s ease;
+}
+.nav-elements ul li a:hover{
+    color:rgb(30, 107, 135);
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+.hover-gradient-blue:hover{
+    transition: all 0.3s ease;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(30, 107, 135), #079b87, rgb(30, 107, 135));
+    -webkit-background-clip: text;
+      /* Use 'background-clip' for WebKit (Safari/Chrome) */
+    background-clip: text;
+      /* Standard property for other modern browsers */
+    color: transparent;
+}
+.hover-gradient-purple:hover{
+    transition: all 0.3s ease;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(149, 107, 216), #45096c, rgb(149, 107, 216));
+    -webkit-background-clip: text;
+      /* Use 'background-clip' for WebKit (Safari/Chrome) */
+    background-clip: text;
+      /* Standard property for other modern browsers */
+    color: transparent;
+}
