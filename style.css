@@ -212,6 +212,9 @@ nav{
     font-size: 20px;
 }
 .hover-gradient-blue:hover{
+    font-family: 'Aloevera';
+    transition:font-family 0.3s ease;
+    transition: color 0.3s ease;
     transition: all 0.3s ease;
     font-weight: bold;
     background: linear-gradient(45deg, rgb(30, 107, 135), #079b87, rgb(30, 107, 135));
@@ -222,7 +225,9 @@ nav{
     color: transparent;
 }
 .hover-gradient-purple:hover{
-    transition: all 0.3s ease;
+    font-family: 'Aloevera';
+    transition:font-family 0.3s ease;
+    transition: color 0.3s ease;
     font-weight: bold;
     background: linear-gradient(45deg, rgb(149, 107, 216), #45096c, rgb(149, 107, 216));
     -webkit-background-clip: text;
